@@ -1,0 +1,84 @@
+<html>
+	<head>
+		<title>SJCE</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name='viewport' content="width=device-width,initial scale=1">
+		<link rel="stylesheet" type="text/css" href="boot/css/bootstrap.min.css">
+		<style type="text/css">
+			input
+			{
+				font-weight: bold;
+			}
+		</style>
+		<script type="text/javascript">
+			function verify()
+			{
+				if(document.getElementById('uname').value=="")
+				{
+					document.getElementById('message').innerHTML = '<span style="color:red;"><b>Enter Username!</b></span>';
+					return false;
+				}
+				if(document.getElementById('pwd').value=="")
+				{
+					document.getElementById('message').innerHTML = '<span style="color:red;"><b>Enter Password!</b></span>';
+					return false;
+				}
+			}
+		</script>
+	</head>
+	<body style="background-color: #474e5d;">
+		<div class="container-fluid">
+			<div style="color:white;" class="text-center">
+				<h2>JSS MAHAVIDYAPEETHA</h2>
+				<h2>SRI JAYACHAMARAJENDRA COLLEGE OF ENGINEERING</h2>
+				<h4>PLACEMENTS AND TRAINING CELL</h4>
+				<h5>MYSURU</h5><hr>
+			</div>
+			<div class="row">
+				<div class="col-sm-2"></div>
+				<div class="col-sm-3 well text-justify">
+				<h4><b>SJCE</b></h4>
+				Sri Jayachamarajendra College of Engineering is one of the most sought after destinations amongst the students. Located in the southern part of Karnataka, SJCE is one of the dream destinations and attracts highly meritorious students from various parts of Karnataka and also abroad. This is mainly attributed to many factors. one of them being in SJCE's efforts to get the students placed in various organizations through campus placements organized by the Placement and Training Cell. SJCE has been in the forefront of activities bringing both corporate and companies close to the campus and encouraging then to establish facilities to cater to the needs of both faculty and students.
+				SJCE was granted autonomy and is presently one of the 17 engineering colleges which are granted autonomy in 2006-2007.
+				Placement and Training department took initiative to provide adequate training to students to enable them to have better employability skills compared to other colleges.<br>
+				The Placement and Training Center of our institution is headed by Deputy Director Prof B. Mahananda , Other Members of the Placement team includes Dr.Srinidhi R Acharya-Placement Officer and Mr.Pradeep.M-Placement Co-ordinator.<br>
+				</div>
+				<div class="col-sm-2"></div>
+				<div class="col-sm-3 well">
+					<h3><b>Login:</b></h3><div id="message"><br></div>
+					<form role="form">
+						<div class="form-group">
+							<label for="uname">Username:</label>
+							<input type="text" class="form-control" id="uname" placeholder="Username" >
+						</div>
+						<div class="form-group">
+							<label for="pwd">Password:</label>
+							<input type="password" class="form-control" id="pwd" placeholder="Password">
+						</div>
+						<button type="submit" class="btn btn-success" onclick="return verify();">Submit</button>
+					</form><br>
+
+					<h3><b>Signup:</b></h3>
+					<form role="form">
+						<div class="form-group">
+							<label for="uname">Username:</label>
+							<input type="text" class="form-control" id="uname" placeholder="Username" >
+						</div>
+						<div class="form-group">
+							<label for="pwd">Password:</label>
+							<input type="password" class="form-control" id="pwd" placeholder="Enter Password"><br>
+							<input type="password" class="form-control" id="pwd" placeholder="Confirm Password">
+						</div>
+						<button type="submit" class="btn btn-success">Submit</button>
+					</form><br>
+				</div>
+				<div class="col-sm-2"></div>
+			</div><br><hr>
+			<div style="color: white;" class="text-center">
+				Developed under the guidance of   Dr. C N Ravikumar and Prof. Sheela N<br>
+				Developed and Maintained by Basanth Jenu H B<br>
+				Copyright &copy 2016 - All rights Reserved<br>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,159 @@
+*
+{
+	margin:0px;
+	padding:0px; 
+}
+nav,header,section,footer
+{
+	display: block;
+}
+body
+{
+	width: 1347px;
+	background:white;
+}
+#bigwrapper
+{
+	width: 1347px;
+	margin: 0px 0px; 
+}
+#nav_
+{
+	text-align: center;
+	border:red;
+	background: #800000;
+	padding-bottom: 25px;
+	max-width:100%;
+}
+#nav_ li
+{
+	display:inline-block;
+	list-style-type: none;
+	padding: 10px;
+	font:bold 14px arial;
+	border: red 0px solid;
+	background:#666666;
+	color: white;
+	text-transform: uppercase;
+	-webkit-box-flex:1;
+	-moz-box-flex:1;
+	-o-box-flex:1;
+	-ms-flex-flex:1;
+	border-radius:5px;
+}
+#nav_ li:hover
+{
+	background-color: #383838;
+}
+#header_
+{
+	padding: 0px;
+	margin:0px; 
+	text-align: center;
+	width: 1347px;
+	color: white;
+	background:#800000;
+}
+#section_
+{
+	display: -webkit-box;
+	-webkit-box-orient:horizontal;
+	display: -moz-box;
+	-moz-box-orient:horizontal;
+	display: -o-box;
+	-o-box-orient:horizontal;
+	display: -ms-flexbox;
+	-ms-flex-orient:horizontal;
+	color: black;
+	border: 5px solid gray;
+	outline: 10px solid #4a4a4a;
+	height:400px;
+	width:900px;
+	margin-top:50px;
+	margin-right: 100px;
+	margin-left: 210px;
+}
+#success
+{
+	color: green;
+}
+#section_1
+{
+	text-align: center;
+	border: 0px solid red;
+	max-width:250px;
+	margin:20px;
+	margin-left:100px;
+	font-family:verdana;
+	font-size:15px;
+	text-align: justify;
+}
+#section_2
+{
+	display: -webkit-box;
+	-webkit-box-orient:vertical;
+	display: -moz-box;
+	-moz-box-orient:vertical;
+	display: -o-box;
+	-o-box-orient:vertical;
+	border :0px solid red;
+	margin: 10px;
+	margin-left: 50px;
+	max-width:300px;
+	font-size:15px;
+	font-family: comic sans ms;
+}
+#section_2 img
+{
+	margin-left: 0px;
+}
+#section_22
+{
+	display:-webkit-box;
+	-webkit-box-orient:horizontal;
+	display:-moz-box;
+	-moz-box-orient:horizontal;
+	display:-o-box;
+	-o-box-orient:horizontal;
+	display:-ms-flexbox;
+	-ms-flex-orient:horizontal;
+}
+#section_221
+{
+	margin-top: 30px;
+	margin-left: 30px;
+}
+input,textarea
+{
+	padding: 9px;
+	border:1px solid #e5e5e5;
+	outline:0;
+	color:white;
+	font:normal 15px/100% verdana;
+	background: #4f4f4f;
+	box-shadow: rgba(0,0,0,0.5) 0px;
+	border-radius:10px;
+}
+textarea
+{
+	line-height: 150%;
+}
+input:hover,textarea:hover,
+input:focus,textarea:focus
+{
+	border-color: #c9c9c9;
+	color:white;
+}
+#error
+{
+	color:red;
+}
+#footer_
+{
+	padding:20px;
+	background-color: #800000;
+	margin-top: 40px;
+	margin-bottom: -12px;
+	padding-left: 200px;
+	color: white;
+}
